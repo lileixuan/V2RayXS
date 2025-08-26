@@ -35,7 +35,7 @@ BOOL runLoopMark = YES;
 NSString* defaultRouteGateway;
 
 SYSRouteHelper* routeHelper;
-NSString* tunAddr = @"198.18.0.0";
+NSString* tunAddr = @"198.18.0.1";
 NSString* tunWg = @"198.18.0.1";
 NSString* tunMask = @"255.255.255.252";
 NSString* tunDns = @"8.8.8.8,8.8.4.4,1.1.1.1";
