@@ -35,9 +35,9 @@ BOOL runLoopMark = YES;
 NSString* defaultRouteGateway;
 
 SYSRouteHelper* routeHelper;
-NSString* tunAddr = @"10.0.0.0";
-NSString* tunWg = @"10.0.0.1";
-NSString* tunMask = @"255.255.255.0";
+NSString* tunAddr = @"198.18.0.0";
+NSString* tunWg = @"198.18.0.1";
+NSString* tunMask = @"255.255.255.252";
 NSString* tunDns = @"8.8.8.8,8.8.4.4,1.1.1.1";
 NSString* proxyServer;
 NSString* exampleServer = @"93.184.216.34"; // example.com ip use to identify records
